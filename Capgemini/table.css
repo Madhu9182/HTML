@@ -1,0 +1,29 @@
+table {
+    font-family: cambria;
+    font-size: medium;
+    color:black;
+    width:50%;
+    border: 1px;
+    border-radius: 10px;
+}
+th {
+    text-align:center;
+    border:1px solid black;
+    text-align: left;
+    padding:20px;
+    color: black;
+    background-color:darkgray;
+    border-radius: 10px;
+}
+td{
+    border:1px solid black;
+    text-align: left;
+    padding:20px;
+    background-color: darkviolet;
+    color:white;
+    font-size: 25px;
+    border-radius: 10px;
+}
+tr:nth-child(even){
+    background-color: grey;
+}
